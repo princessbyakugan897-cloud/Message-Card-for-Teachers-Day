@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Teachers' Day | Sir Randy Bello</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+  </div>
+
+  <main class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <span class="eyebrow">A MESSAGE OF GRATITUDE</span>
+
+      <h1>Happy Teachers' Day</h1>
+
+      <p>
+        A special message for
+        <strong>Sir Randy Bello</strong>
+      </p>
+    </header>
+
+
+    <!-- BOOK -->
+    <section class="book-area">
+
+      <div class="book" id="book">
+
+        <!-- FRONT COVER -->
+        <div class="page cover">
+
+          <div class="cover-content">
+
+            <div class="badge">TEACHERS' DAY</div>
+
+            <div class="symbol">✦</div>
+
+            <h2>
+              To Our<br>
+              <span>Wonderful Teacher</span>
+            </h2>
+
+            <h3>Sir Randy Bello</h3>
+
+            <p>
+              Thank you for inspiring us,
+              guiding us, and helping us
+              become better every day.
+            </p>
+
+            <button id="openCard">
+              Open Card <span>→</span>
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- PHOTO PAGE -->
+        <div class="page photo-page">
+
+          <span class="page-number">01</span>
+
+          <div class="photo-box">
+
+            <img
+              id="teacherPhoto"
+              src="https://images.c:\Users\User\Pictures\Sir Randy\FB_IMG_1790765600837.jpgc=crop&w=900&q=80"
+              alt="Teacher photo"
+            >
+
+          </div>
+
+          <div class="photo-caption">
+            <span>To an inspiring teacher</span>
+
+            <h3>Thank you for everything.</h3>
+          </div>
+
+        </div>
+
+
+        <!-- MESSAGE PAGE -->
+        <div class="page message-page">
+
+          <span class="page-number">02</span>
+
+          <div class="message-content">
+
+            <span class="small-title">
+              DEAR SIR RANDY BELLO,
+            </span>
+
+            <h2>Thank You</h2>
+
+            <p id="messageText">
+              Thank you for your patience, guidance,
+              encouragement, and dedication.
+
+              You have taught us more than lessons
+              from a classroom. You have inspired us
+              to believe in ourselves, work hard,
+              and never stop learning.
+
+              We are grateful for every lesson,
+              every reminder, every challenge,
+              and every moment you have shared
+              with us.
+
+              Your effort and kindness truly make
+              a difference in the lives of your students.
+            </p>
+
+            <div class="signature">
+
+              <span>With heartfelt gratitude,</span>
+
+              <strong>From Your Students,</strong>
+
+              <b>Angela Joy Ibanez</b>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- BACK COVER -->
+        <div class="page back-page">
+
+          <div class="back-content">
+
+            <div class="back-symbol">✦</div>
+
+            <h2>Happy<br>Teachers' Day!</h2>
+
+            <p>
+              Thank you for being an amazing teacher.
+            </p>
+
+            <div class="heart">♥</div>
+
+            <span>With appreciation and gratitude</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTROLS -->
+    <div class="controls">
+
+      <button id="prevBtn">
+        ← Previous
+      </button>
+
+      <span id="pageIndicator">
+        Cover
+      </span>
+
+      <button id="nextBtn">
+        Next →
+      </button>
+
+    </div>
+
+
+    <!-- CUSTOMIZATION -->
+    <section class="customizer">
+
+      <div class="customizer-heading">
+
+        <div>
+          <span class="eyebrow">PERSONALIZE YOUR CARD</span>
+
+          <h2>Make It Yours</h2>
+        </div>
+
+        <span class="gear">⚙</span>
+
+      </div>
+
+
+      <div class="upload-grid">
+
+        <!-- PHOTO -->
+        <label class="upload-card">
+
+          <div class="upload-icon">📷</div>
+
+          <div>
+            <strong>Add Your Photo</strong>
+
+            <small>
+              Choose an image from your device
+            </small>
+          </div>
+
+          <input
+            type="file"
+            id="photoInput"
+            accept="image/*"
+          >
+
+        </label>
+
+
+        <!-- MUSIC -->
+        <label class="upload-card">
+
+          <div class="upload-icon">🎵</div>
+
+          <div>
+            <strong>Add Music</strong>
+
+            <small>
+              Choose MP3, M4A, WAV, etc.
+            </small>
+          </div>
+
+          <input
+            type="file"
+            id="musicInput"
+            accept="audio/*"
+          >
+
+        </label>
+
+      </div>
+
+
+      <!-- MESSAGE EDITOR -->
+      <div class="editor">
+
+        <label for="messageInput">
+          ✍️ Customize Your Message
+        </label>
+
+        <textarea
+          id="messageInput"
+          rows="9"
+        >HAPPY TEACHER'S DAY SIR RANDY Thank you for your patience, guidance, encouragement, and dedication.
+
+You have taught us more than lessons from a classroom. You have inspired us to believe in ourselves, work hard, and never stop learning.
+
+We are grateful for every lesson, every reminder, every challenge, and every moment you have shared with us.
+
+Your effort and kindness truly make a difference in the lives of your students.</textarea>
+
+        <button id="updateMessage">
+          ✓ Update Message
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- MUSIC PLAYER -->
+    <section class="music-player">
+
+      <div class="music-details">
+
+        <div class="music-disc">
+          ♪
+        </div>
+
+        <div>
+          <strong id="musicName">
+            No music selected
+          </strong>
+
+          <small>
+            Add a song to make the card more memorable
+          </small>
+        </div>
+
+      </div>
+
+      <button id="musicButton">
+        ▶
+      </button>
+
+    </section>
+
+
+    <audio id="audioPlayer"></audio>
+
+
+    <footer>
+      Made with ❤️ for <strong>Sir Randy Bello</strong>
+      <br>
+      From Your Students, Angela Joy Ibanez
+    </footer>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
